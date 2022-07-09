@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat An Account</title>
+    <style>
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+        <li class="firstname">
+            <label for="first-name">
+                <b>First name</b>
+            </label>
+            <input id="first-name" required placeholder="Firstname" type="name">
+        </li>
+        <li class="last name">
+            <label for="Last-name">
+                <b>Last name</b>
+            </label>
+            <input id="Last-name" required placeholder="Lastname" type="name"><br>
+        </li>
+        <li class="email">
+            <label for="email">
+                <b>E-mail</b>
+            </label>
+            <input id="email" required placeholder="asdasd@lalala.com" type="email"><br>
+        </li>
+        <li class="username">
+            <label for="Username">
+                <b>Username</b>
+            </label>
+            <input required placeholder="Username" type="text"><br>
+        </li>
+        <li class="password">
+            <label for="Password">
+                <b>Password</b>
+            </label>
+            <input type="password" required placeholder="Password" minlength="10"><br>
+        </li>
+        <li class="birthdate">
+            <label for="Birth date">
+                <b>Birth date</b>
+            </label>
+            <input type="date" id=" date" value="2022-07-08" min="2022-07-08" max="2022-7-31"><br>
+        </li>
+        <li class="happy">
+            <label for="happy">
+                <b>How happy are you?</b>
+            </label>
+            <input type="range" list="tickmarks">
+            <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+            </datalist>
+        </li>
+        <li class="color">
+            <label for="color">
+                <b>What is your fav.color?</b>
+                <input type="color" id="color" name="color" value="#fff"><br>
+            </label>
+        </li>
+        <li class="subit">
+            <input type="Submit" value="Create account">
+        </li>
+    </form>
+    </label>
+</body>
+
+</html>

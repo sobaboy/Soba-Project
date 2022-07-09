@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>승오's time</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes superSexyCoinFlip {
+        0% {
+          transform: rotateY(0);
+        }
+        25% {
+          transform: scale (2);
+        }
+        50% {
+          border-radius: 0px;
+          transform: rotateX(180deg) translateY(100px);
+          border-color: tomato;
+        }
+        75% {
+          transform: scale(5);
+          border-radius: 20px;
+        }
+        100% {
+          transform: rotateX(0); /* 원래 위치로 돌아오게 만드는 것 */
+        }
+      }
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        animation: superSexyCoinFlip 5s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./img/optimize.jpg" alt="logo" />
+    <span>sadasdasdsad</span>
+  </body>
+</html>
